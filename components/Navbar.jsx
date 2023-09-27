@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaRectangleXmark } from "react-icons/fa6";
+
+let timeoutId;
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
   const [active, setActive] = useState(1);
+  const [isScrolling, setIsScrolling] = useState(false);
 
   const links = [
     {
@@ -28,6 +31,36 @@ export default function Navbar() {
     },
   ];
 
+  const handleScroll = () => {
+    if (!isScrolling) {
+      links.forEach((section) => {
+        const elemId = section.link.toLowerCase();
+        const sectionElem = document.getElementById(elemId);
+        if (sectionElem) {
+          const top = sectionElem.getBoundingClientRect().top;
+          if (top <= 0) {
+            setActive(section.id);
+          }
+        }
+      });
+    }
+  };
+
+  const handleActiveClick = (id) => {
+    if (timeoutId) clearTimeout(timeoutId);
+    setIsScrolling(true);
+    setActive(id);
+    timeoutId = setTimeout(() => setIsScrolling(false), 1000);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
   return (
     <nav className="bg-moonstone flex items-center justify-between h-full w-full px-8 shadow-black shadow rounded-full opacity-90">
       <div>
@@ -39,10 +72,13 @@ export default function Navbar() {
             <li
               key={id}
               className={`${
-                id === active ? `text-cardinal` : `text-white`
+                id === active ? `text-cardinal scale-105` : `text-white`
               } ml-12 text-lg font-medium hover:scale-105 hover:text-cardinal duration-200`}
             >
-              <a onClick={() => setActive(id)} href={`#${link.toLowerCase()}`}>
+              <a
+                onClick={() => handleActiveClick(id)}
+                href={`#${link.toLowerCase()}`}
+              >
                 {link}
               </a>
             </li>
