@@ -6,7 +6,18 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cardinal: "#AD343E",
+        "outer-space": "#474747",
+        moonstone: "#66999B",
+        "coral-pink": "#FB9F89",
+        white: "#FFFFFF",
+      },
+      transitionProperty: {
+        height: "height",
+      },
+    },
   },
   plugins: [],
 };

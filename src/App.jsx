@@ -1,26 +1,18 @@
+import Home from "../components/Home";
 import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Portfolio from "../components/Portfolio";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <header className="flex justify-center items-center h-28 w-full xl:max-w-screen-xl fixed py-4 px-24">
+        <Navbar />
+      </header>
       <main>
-        <section id="about" className="pt-20 min-h-screen px-16">
-          <h1 className="text-5xl text-emerald-500">Zak Kermitz</h1>
-          <h2 className="text-2xl text-slate-500 mb-5">Software Engineer</h2>
-          <p className="text-center max-w-lg text-gray-500">
-            I recently graduated first in class from Stevens Institute of
-            Technology with a Computer Engineering major as well as Computer
-            Science minor. I&apos;m currently pursuing opportunities in Software
-            Engineering. 🖥️
-          </p>
-        </section>
-        <section
-          id="portfolio"
-          className="pt-20 min-h-screen flex justify-center items-center"
-        >
-          <p>Test2</p>
-        </section>
+        <Home />
+        <About />
+        <Portfolio />
       </main>
     </>
   );
