@@ -21,15 +21,6 @@ export default function Home() {
               Zak Kermitz
             </h1>
             <h2 className="text-3xl text-white mb-4">Software Engineer</h2>
-            <p className="max-w-lg text-white text-lg">
-              I recently graduated first in class from{" "}
-              <span className="text-cardinal font-medium">
-                Stevens Institute of Technology
-              </span>{" "}
-              with a Computer Engineering major as well as Computer Science
-              minor. I&apos;m currently pursuing opportunities in Software
-              Engineering. 🖥️
-            </p>
           </div>
           <div className="flex justify-center items-center">
             <a

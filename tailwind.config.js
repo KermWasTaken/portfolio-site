@@ -13,6 +13,7 @@ export default {
         moonstone: "#66999B",
         "coral-pink": "#FB9F89",
         white: "#FFFFFF",
+        bubbl: "#2596BE",
       },
       transitionProperty: {
         height: "height",
