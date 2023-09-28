@@ -6,13 +6,16 @@ import Portfolio from "../components/Portfolio";
 function App() {
   return (
     <>
-      <header className="flex justify-center items-center h-28 w-full xl:max-w-screen-xl fixed py-4 px-24">
+      <header
+        id="navbar"
+        className="flex justify-center items-center h-20 w-full fixed top-0 left-0"
+      >
         <Navbar />
       </header>
       <main>
         <Home />
         <About />
-        <Portfolio />
+        <Home />
       </main>
     </>
   );

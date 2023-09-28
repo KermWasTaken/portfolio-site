@@ -17,6 +17,9 @@ export default {
       transitionProperty: {
         height: "height",
       },
+      borderRadius: {
+        extraLarge: "12rem",
+      },
     },
   },
   plugins: [],
