@@ -23,10 +23,6 @@ export default function Navbar() {
     },
     {
       id: 4,
-      link: "Experience",
-    },
-    {
-      id: 5,
       link: "Contact",
     },
   ];
@@ -62,7 +58,7 @@ export default function Navbar() {
   });
 
   return (
-    <nav className="bg-transparent flex items-center justify-between max-w-screen-xl h-full w-full px-8 opacity-90">
+    <nav className="bg-black flex items-center justify-between max-w-screen-xl h-full w-full px-8">
       <div>
         <h2 className="text-5xl font-bold text-cardinal">KERM</h2>
       </div>
@@ -94,7 +90,7 @@ export default function Navbar() {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full bg-gradient-to-b from-moonstone to-black text-white rounded-bl-3xl rounded-br-3xl">
+        <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full bg-black text-white rounded-bl-3xl rounded-br-3xl">
           {links.map(({ id, link }) => {
             return (
               <li

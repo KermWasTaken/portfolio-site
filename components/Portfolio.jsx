@@ -26,6 +26,14 @@ export default function Portfolio() {
       demo: "https://sites.google.com/stevens.edu/bubbl/home",
       isVideo: false,
     },
+    {
+      source: "../src/assets/ambience.png",
+      name: "Ambience",
+      desc: "Mix your spotify playlists with ambient noises to create diverse soundscapes for any occasion",
+      github: "https://github.com/KermWasTaken/ambient-spotify",
+      demo: "https://sites.google.com/stevens.edu/bubbl/home",
+      isVideo: false,
+    },
   ];
 
   return (
