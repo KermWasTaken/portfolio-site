@@ -4,18 +4,18 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-gradient-to-b from-outer-space to-black pt-20 min-h-screen flex justify-center"
+      className="flex min-h-screen justify-center bg-gradient-to-b from-outer-space to-black pt-20"
     >
-      <div className="w-full max-w-screen-xl py-4 px-8">
-        <h2 className="text-5xl mb-12 font-medium text-moonstone">About me</h2>
-        <p className="text-white text-lg mb-4 text-center">
+      <div className="w-full max-w-screen-xl px-8 py-4">
+        <h2 className="mb-12 text-5xl font-medium text-moonstone">About me</h2>
+        <p className="mb-4 text-center text-lg text-white">
           I recently graduated first in class from{" "}
-          <span className="text-cardinal font-medium">
+          <span className="font-medium text-cardinal">
             Stevens Institute of Technology
           </span>{" "}
           with a Computer Engineering major as well as Computer Science minor.
         </p>
-        <p className="text-white text-lg">
+        <p className="text-lg text-white">
           My passion for developing goes all the way back to sixth grade when I
           joined ... I love the word tinkerer because I find that I love to
           explore things I come across in life and find out the mechanisms that

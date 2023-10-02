@@ -9,7 +9,7 @@ function App() {
     <>
       <header
         id="navbar"
-        className="flex justify-center items-center h-20 w-full fixed top-0 left-0"
+        className="fixed left-0 top-0 flex h-20 w-full items-center justify-center"
       >
         <Navbar />
       </header>

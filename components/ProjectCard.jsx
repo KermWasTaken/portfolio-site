@@ -7,16 +7,16 @@ export default function ProjectCard({
   isVideo,
 }) {
   return (
-    <div className="max-w-md border h-full rounded-xl overflow-auto flex flex-col">
+    <div className="flex h-full max-w-md flex-col overflow-auto rounded-xl border">
       <div>
         {isVideo ? (
-          <video src={source} controls className="object-cover w-full h-64" />
+          <video src={source} controls className="h-64 w-full object-cover" />
         ) : (
-          <img src={source} className="object-cover w-full h-64" />
+          <img src={source} className="h-64 w-full object-cover" />
         )}
       </div>
-      <div className="p-4 bg-gray-400 flex-grow">
-        <h3 className="text-white font-semibold text-3xl mb-4">{name}</h3>
+      <div className="flex-grow bg-gray-400 p-4">
+        <h3 className="mb-4 text-3xl font-semibold text-white">{name}</h3>
         <p>{desc}</p>
       </div>
       <div className="flex bg-slate-800 text-white">
@@ -24,7 +24,7 @@ export default function ProjectCard({
           href={github}
           target="_blank"
           rel="noreferrer"
-          className="flex-grow flex justify-center items-center py-4 hover:cursor-pointer hover:bg-slate-400"
+          className="flex flex-grow items-center justify-center py-4 hover:cursor-pointer hover:bg-slate-400"
         >
           Code
         </a>
@@ -32,7 +32,7 @@ export default function ProjectCard({
           href={demo}
           target="_blank"
           rel="noreferrer"
-          className="flex-grow flex justify-center items-center py-4 hover:cursor-pointer hover:bg-slate-400"
+          className="flex flex-grow items-center justify-center py-4 hover:cursor-pointer hover:bg-slate-400"
         >
           Demo
         </a>

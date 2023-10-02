@@ -58,7 +58,7 @@ export default function Navbar() {
   });
 
   return (
-    <nav className="bg-black flex items-center justify-between max-w-screen-xl h-full w-full px-8">
+    <nav className="flex h-full w-full max-w-screen-xl items-center justify-between bg-black px-8">
       <div>
         <h2 className="text-5xl font-bold text-cardinal">KERM</h2>
       </div>
@@ -68,8 +68,8 @@ export default function Navbar() {
             <li
               key={id}
               className={`${
-                id === active ? `text-cardinal scale-105` : `text-white`
-              } ml-12 text-lg font-medium hover:scale-105 hover:text-cardinal duration-200`}
+                id === active ? `scale-105 text-cardinal` : `text-white`
+              } ml-12 text-lg font-medium duration-200 hover:scale-105 hover:text-cardinal`}
             >
               <a
                 onClick={() => handleActiveClick(id)}
@@ -84,20 +84,20 @@ export default function Navbar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-white lg:hidden"
+        className="z-10 cursor-pointer pr-4 text-white lg:hidden"
       >
         {nav ? <FaRectangleXmark size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full bg-black text-white rounded-bl-3xl rounded-br-3xl">
+        <ul className="absolute left-0 top-20 flex w-full flex-col items-center justify-center rounded-bl-3xl rounded-br-3xl bg-black text-white">
           {links.map(({ id, link }) => {
             return (
               <li
                 key={id}
                 className={`${
-                  id === active ? `text-cardinal scale-105` : `text-white`
-                } px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 hover:text-cardinal duration-200`}
+                  id === active ? `scale-105 text-cardinal` : `text-white`
+                } cursor-pointer px-4 py-6 text-4xl capitalize duration-200 hover:scale-105 hover:text-cardinal`}
               >
                 <a
                   onClick={() => {

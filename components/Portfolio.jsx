@@ -39,13 +39,13 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="bg-gradient-to-b from-black to-outer-space pt-20 min-h-screen flex justify-center"
+      className="flex min-h-screen justify-center bg-gradient-to-b from-black to-outer-space pt-20"
     >
-      <div className="w-full max-w-screen-xl py-4 px-8">
+      <div className="w-full max-w-screen-xl px-8 py-4">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {projects.map((project, index) => {
             return (
-              <div key={index + 1} className="flex justify-center items-center">
+              <div key={index + 1} className="flex items-center justify-center">
                 <ProjectCard
                   source={project.source}
                   name={project.name}

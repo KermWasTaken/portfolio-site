@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="bg-gradient-to-b from-black to-outer-space pt-20 min-h-screen flex justify-center"
+      className="flex min-h-screen justify-center bg-gradient-to-b from-black to-outer-space pt-20"
     >
-      <div className="w-full max-w-screen-xl py-4 px-8">
-        <div className="flex flex-col h-full items-center justify-evenly">
+      <div className="w-full max-w-screen-xl px-8 py-4">
+        <div className="flex h-full flex-col items-center justify-evenly">
           <div id="hero-container">
             <img
               src={HeroImage}
@@ -16,13 +16,13 @@ export default function Home() {
               className="h-64 rounded-full shadow-md shadow-black"
             />
           </div>
-          <div className="flex flex-col justify-start items-center text-center">
-            <h1 className="text-5xl font-bold text-moonstone mb-2">
+          <div className="flex flex-col items-center justify-start text-center">
+            <h1 className="mb-2 text-5xl font-bold text-moonstone">
               Zak Kermitz
             </h1>
-            <h2 className="text-3xl text-white mb-4">Software Engineer</h2>
+            <h2 className="mb-4 text-3xl text-white">Software Engineer</h2>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex items-center justify-center">
             <a
               target="_blank"
               rel="noreferrer"
