@@ -58,7 +58,7 @@ export default function Navbar() {
   });
 
   return (
-    <nav className="flex h-full w-full max-w-screen-xl items-center justify-between bg-black px-8">
+    <nav className="flex h-full w-full max-w-screen-xl items-center justify-between bg-white px-8">
       <div>
         <h2 className="text-5xl font-bold text-cardinal">KERM</h2>
       </div>
@@ -68,7 +68,7 @@ export default function Navbar() {
             <li
               key={id}
               className={`${
-                id === active ? `scale-105 text-cardinal` : `text-white`
+                id === active ? `scale-105 text-cardinal` : `text-black`
               } ml-12 text-lg font-medium duration-200 hover:scale-105 hover:text-cardinal`}
             >
               <a
@@ -84,19 +84,19 @@ export default function Navbar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="z-10 cursor-pointer pr-4 text-white lg:hidden"
+        className="z-10 cursor-pointer pr-4 text-black lg:hidden"
       >
         {nav ? <FaRectangleXmark size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="absolute left-0 top-20 flex w-full flex-col items-center justify-center rounded-bl-3xl rounded-br-3xl bg-black text-white">
+        <ul className="absolute left-0 top-20 flex w-full flex-col items-center justify-center rounded-bl-3xl rounded-br-3xl bg-white text-black">
           {links.map(({ id, link }) => {
             return (
               <li
                 key={id}
                 className={`${
-                  id === active ? `scale-105 text-cardinal` : `text-white`
+                  id === active ? `scale-105 text-cardinal` : `text-black`
                 } cursor-pointer px-4 py-6 text-4xl capitalize duration-200 hover:scale-105 hover:text-cardinal`}
               >
                 <a

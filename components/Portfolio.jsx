@@ -39,9 +39,12 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="flex min-h-screen justify-center bg-gradient-to-b from-black to-outer-space pt-20"
+      className="flex min-h-screen justify-center bg-white pt-20"
     >
       <div className="w-full max-w-screen-xl px-8 py-4">
+        <h2 className="mb-12 text-center text-5xl font-bold text-black">
+          Portfolio
+        </h2>
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {projects.map((project, index) => {
             return (
