@@ -1,27 +1,32 @@
+import PropTypes from "prop-types";
+
+ProjectCard.propTypes = {
+  source: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+  demo: PropTypes.string.isRequired,
+  icons: PropTypes.arrayOf(Object),
+};
+
 export default function ProjectCard({
   source,
   name,
   desc,
   github,
   demo,
-  isVideo,
   icons,
 }) {
   return (
     <div className="flex h-full max-w-md flex-col overflow-auto rounded-xl border border-none shadow-md shadow-black duration-200 hover:scale-105">
       <div>
-        {isVideo ? (
-          <video src={source} controls className="h-64 w-full object-cover" />
-        ) : (
-          <img src={source} className="h-64 w-full object-cover" />
-        )}
+        <img src={source} className="h-64 w-full object-cover" />
       </div>
       <div className="flex-grow bg-white p-4">
         <div className="flex flex-wrap items-center justify-between">
           <h3 className="mb-4 text-3xl font-semibold text-black">{name}</h3>
           <div className="mb-4 flex">
             {icons.map((reactIcon) => {
-              console.log("Here");
               return reactIcon;
             })}
           </div>

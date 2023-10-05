@@ -2,6 +2,7 @@ import Home from "../components/Home";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         <About />
         <Portfolio />
       </main>
+      <footer
+        id="navbar"
+        className="flex w-full items-center justify-center border-t-2"
+      >
+        <Footer />
+      </footer>
     </>
   );
 }

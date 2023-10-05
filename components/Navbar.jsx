@@ -80,7 +80,7 @@ export default function Navbar() {
         <a
           target="_blank"
           rel="noreferrer"
-          className="rounded-md border-2 border-cardinal px-8 py-2 font-medium duration-200 hover:bg-cardinal hover:text-white"
+          className="rounded-md border-2 border-cardinal px-8 py-2 font-medium duration-500 hover:bg-cardinal hover:text-white"
           href="src/assests/resume.pdf"
         >
           Resume
@@ -114,7 +114,7 @@ export default function Navbar() {
       </div>
 
       {nav && (
-        <ul className="absolute left-0 top-20 flex w-full flex-col items-center justify-center rounded-bl-3xl rounded-br-3xl bg-white text-black">
+        <ul className="absolute left-0 top-20 flex w-full flex-col items-center justify-center rounded-bl-3xl rounded-br-3xl bg-white text-black lg:hidden">
           {links.map(({ id, link }) => {
             return (
               <li
