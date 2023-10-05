@@ -38,7 +38,7 @@ export default function Portfolio() {
       name: "Portfolio Site",
       desc: "The website that you are currently viewing! Built to showcase projects I've worked on through my software engineering journey.",
       github: "https://github.com/KermWasTaken/portfolio-site",
-      demo: "https://sites.google.com/stevens.edu/bubbl/home",
+      demo: "https://kerm.dev",
       icons: [
         <BiLogoReact key={1} size={50} className="text-react" />,
         <BiLogoTailwindCss key={2} size={50} className="text-tailwind" />,
@@ -60,7 +60,7 @@ export default function Portfolio() {
       name: "PokeKerm",
       desc: "A project that I continuted from a mock React interview on youtube. They ran out of time so I took up the challenge of finishing the project to a working end result.",
       github: "https://github.com/KermWasTaken/poke-kerm",
-      demo: "https://costcodle.com",
+      demo: "https://poke.kerm.dev",
       icons: [
         <BiLogoReact key={1} size={50} className="text-react" />,
         <BiLogoBootstrap key={2} size={50} className="text-bootstrap" />,

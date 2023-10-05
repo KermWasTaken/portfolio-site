@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaBars, FaRectangleXmark } from "react-icons/fa6";
 import logo from "../src/assets/Kerm-Logo.png";
+import resume from "../src/assests/resume.pdf";
 
 let timeoutId;
 
@@ -81,7 +82,7 @@ export default function Navbar() {
           target="_blank"
           rel="noreferrer"
           className="rounded-md border-2 border-cardinal px-8 py-2 font-medium duration-500 hover:bg-cardinal hover:text-white"
-          href="src/assests/resume.pdf"
+          href={resume}
         >
           Resume
         </a>
