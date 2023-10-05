@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaBars, FaRectangleXmark } from "react-icons/fa6";
 import logo from "../src/assets/Kerm-Logo.png";
-import resume from "../src/assests/resume.pdf";
+import resume from "../src/assets/resume.pdf";
 
 let timeoutId;
 
