@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 
 ProjectCard.propTypes = {
-  source: PropTypes.string.isRequired,
+  source: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   github: PropTypes.string.isRequired,
   demo: PropTypes.string.isRequired,
-  icons: PropTypes.arrayOf(Object),
+  icons: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default function ProjectCard({
