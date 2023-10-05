@@ -9,6 +9,8 @@ import {
   BiLogoTailwindCss,
   BiLogoAndroid,
 } from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiNetlify } from "react-icons/si";
 
 import ambience from "../src/assets/ambience.png";
 import bubbl from "../src/assets/bubbl.png";
@@ -16,8 +18,6 @@ import checkers from "../src/assets/checkers.png";
 import costcodle from "../src/assets/costcodle.png";
 import pokekerm from "../src/assets/pokekerm.png";
 import portfolio from "../src/assets/portfolioSite.png";
-
-import { TbBrandNextjs } from "react-icons/tb";
 
 export default function Portfolio() {
   const projects = [
@@ -42,6 +42,7 @@ export default function Portfolio() {
       icons: [
         <BiLogoReact key={1} size={50} className="text-react" />,
         <BiLogoTailwindCss key={2} size={50} className="text-tailwind" />,
+        <SiNetlify key={3} size={50} className="text-netlify" />,
       ],
     },
     {

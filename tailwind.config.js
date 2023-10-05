@@ -22,6 +22,7 @@ export default {
         java: "#007396",
         tailwind: "#38BDF8",
         android: "#A4C639",
+        netlify: "#05BDBA",
       },
       transitionProperty: {
         height: "height",

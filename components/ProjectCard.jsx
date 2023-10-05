@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 ProjectCard.propTypes = {
-  source: PropTypes.object.isRequired,
+  source: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   github: PropTypes.string.isRequired,
