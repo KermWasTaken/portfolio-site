@@ -48,7 +48,7 @@ export default function Portfolio() {
     {
       source: bubbl,
       name: "BUBBL Senior Project",
-      desc: "An Android app designed to help users manage tasks utilizing a priortization algorithm. Helping people stay on top of their goals and responsibilities.",
+      desc: "An Android app designed to help users manage tasks utilizing a prioritization algorithm. Helping people stay on top of their goals and responsibilities.",
       github: "https://github.com/rhyslee211/BubblAndroid",
       demo: "https://sites.google.com/stevens.edu/bubbl/home",
       icons: [
@@ -59,7 +59,7 @@ export default function Portfolio() {
     {
       source: pokekerm,
       name: "PokeKerm",
-      desc: "A project that I continuted from a mock React interview on youtube. They ran out of time so I took up the challenge of finishing the project to a working end result.",
+      desc: "A project that I continued from a mock React interview on youtube. They ran out of time so I took up the challenge of finishing the project to a working end result.",
       github: "https://github.com/KermWasTaken/poke-kerm",
       demo: "https://poke.kerm.dev",
       icons: [

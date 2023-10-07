@@ -23,9 +23,9 @@ export default function About() {
               minor.
             </p>
             <p className="mb-4 text-center text-lg text-black lg:text-left">
-              I&apos;ve helded a lifelong passion for engineering. To
-              illustrate, consider my fifth-grade yearbook photo, where I
-              declared my future ambition:{" "}
+              I&apos;ve held a lifelong passion for engineering. To illustrate,
+              consider my fifth-grade yearbook photo, where I declared my future
+              ambition:{" "}
               <span className="font-bold text-cardinal">
                 &quot;Become an engineer.&quot;
               </span>{" "}
