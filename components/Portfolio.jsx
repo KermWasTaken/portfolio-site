@@ -78,7 +78,7 @@ export default function Portfolio() {
     {
       source: ambience,
       name: "Ambience - In Progress",
-      desc: "Mix your spotify playlists with ambient noises to create diverse soundscapes for any occasion",
+      desc: "Mix your spotify playlists with ambient noises to create diverse soundscapes for any occasion.",
       github: "https://github.com/KermWasTaken/ambient-spotify",
       demo: "",
       icons: [<TbBrandNextjs key={1} size={50} className="text-black" />],
