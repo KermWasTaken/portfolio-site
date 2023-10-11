@@ -12,10 +12,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Netlify Status][netlify-shield]][netlify-shield-url]
-
   <a href="https://github.com/KermWasTaken/portfolio-site">
     <img src="src/assets/Kerm-Logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -34,6 +30,11 @@
     ·
     <a href="https://github.com/KermWasTaken/portfolio-site/issues">Request Feature</a>
   </p>
+
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Netlify Status][netlify-shield]][netlify-shield-url]
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
