@@ -85,7 +85,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Zak Kermitz - zakkermitz@gmail.com
 
-Project Link: [https://github.com/KermWasTaken/portfolio-site](https://github.com/KermWasTaken/portfolio-site)
+Project Link: [https://kerm.dev](https://kerm.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
