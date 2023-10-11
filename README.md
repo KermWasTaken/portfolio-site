@@ -103,7 +103,7 @@ Project Link: [https://kerm.dev](https://kerm.dev)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site
+[license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site?style=for-the-badge
 [license-url]: https://github.com/KermWasTaken/portfolio-site/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zacharykermitz
