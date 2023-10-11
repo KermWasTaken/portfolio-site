@@ -11,7 +11,7 @@
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1cc2ecb-8806-42d2-8ac2-7a214a40265e/deploy-status)](https://app.netlify.com/sites/jade-kelpie-317f52/deploys)
+[![Netlify Status][netlify-shield]][netlify-shield-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -92,19 +92,22 @@ Project Link: [https://github.com/KermWasTaken/portfolio-site](https://github.co
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+- [Ari.gg](https://github.com/ceiphr/ari.gg)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+- [Img Shields](https://shields.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site
 [license-url]: https://github.com/KermWasTaken/portfolio-site/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zacharykermitz
+[netlify-shield]: https://api.netlify.com/api/v1/badges/b1cc2ecb-8806-42d2-8ac2-7a214a40265e/deploy-status
+[netlify-shield-url]: https://app.netlify.com/sites/kerm/deploys
 [site-screenshot]: src/assets/portfolioSite.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
