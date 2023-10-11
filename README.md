@@ -9,13 +9,13 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Netlify Status][netlify-shield]][netlify-shield-url]
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
   <a href="https://github.com/KermWasTaken/portfolio-site">
     <img src="src/assets/Kerm-Logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -103,7 +103,7 @@ Project Link: [https://github.com/KermWasTaken/portfolio-site](https://github.co
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site
-[license-url]: https://github.com/KermWasTaken/portfolio-site/blob/master/LICENSE.txt
+[license-url]: https://github.com/KermWasTaken/portfolio-site/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zacharykermitz
 [netlify-shield]: https://api.netlify.com/api/v1/badges/b1cc2ecb-8806-42d2-8ac2-7a214a40265e/deploy-status
