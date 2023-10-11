@@ -104,7 +104,7 @@ Project Link: [https://github.com/KermWasTaken/portfolio-site](https://github.co
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/github/license/KermWasTaken/portfolio-site
-[license-url]: https://github.com/KermWasTaken/portfolio-site/blob/main/LICENSE.txt
+[license-url]: https://github.com/KermWasTaken/portfolio-site/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zacharykermitz
 [netlify-shield]: https://api.netlify.com/api/v1/badges/b1cc2ecb-8806-42d2-8ac2-7a214a40265e/deploy-status
