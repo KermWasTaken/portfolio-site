@@ -35,7 +35,7 @@ export default function About() {
             <p className="mb-4 text-center text-lg text-black lg:text-left">
               The word{" "}
               <span className="font-bold text-cardinal">architect</span> holds a
-              special place in my heart as it accurately desribes my journey to
+              special place in my heart as it accurately describes my journey to
               strengthen my understanding of the universe through interactive
               exploration. I believe we are all architects of our own passions
               and experiences.
